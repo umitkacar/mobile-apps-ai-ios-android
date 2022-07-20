@@ -11,3 +11,5 @@ https://github.com/vladimir-chernykh/coreml-performance
 https://coremltools.readme.io/docs/pytorch-conversion
 
 https://github.com/hollance/CoreMLHelpers
+
+https://developer.apple.com/machine-learning/api/
