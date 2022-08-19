@@ -1,5 +1,7 @@
 # ai-mobile
 
+https://github.com/WongKinYiu/yolov7
+
 https://boofcv.org/
 
 https://walkwithfastai.com/Segmentation
