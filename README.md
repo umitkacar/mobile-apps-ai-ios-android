@@ -15,3 +15,8 @@ https://coremltools.readme.io/docs/pytorch-conversion
 https://github.com/hollance/CoreMLHelpers
 
 https://developer.apple.com/machine-learning/api/
+
+# SWIFT
+
+https://www.appbrewery.co/p/ios-course-resources/
+
