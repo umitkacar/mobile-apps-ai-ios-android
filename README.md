@@ -20,3 +20,7 @@ https://developer.apple.com/machine-learning/api/
 
 https://www.appbrewery.co/p/ios-course-resources/
 
+# ANOTATION
+
+https://supervise.ly/
+
