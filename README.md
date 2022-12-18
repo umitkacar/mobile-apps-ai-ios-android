@@ -24,3 +24,7 @@ https://www.appbrewery.co/p/ios-course-resources/
 
 https://supervise.ly/
 
+# ai-fastAPI
+
+- https://github.com/FourthBrain/FastAPI-for-Machine-Learning-Live-Demo/blob/main/ml.py
+
