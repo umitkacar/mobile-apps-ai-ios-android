@@ -1,28 +1,28 @@
 # ai-mobile
 
-https://github.com/WongKinYiu/yolov7
+- https://github.com/WongKinYiu/yolov7
 
-https://boofcv.org/
+- https://boofcv.org/
 
-https://walkwithfastai.com/Segmentation
+- https://walkwithfastai.com/Segmentation
 
-https://github.com/vladimir-chernykh/coreml-performance
+- https://github.com/vladimir-chernykh/coreml-performance
 
 # ai-coreML
 
-https://coremltools.readme.io/docs/pytorch-conversion
+- https://coremltools.readme.io/docs/pytorch-conversion
 
-https://github.com/hollance/CoreMLHelpers
+- https://github.com/hollance/CoreMLHelpers
 
-https://developer.apple.com/machine-learning/api/
+- https://developer.apple.com/machine-learning/api/
 
 # SWIFT
 
-https://www.appbrewery.co/p/ios-course-resources/
+- https://www.appbrewery.co/p/ios-course-resources/
 
 # ANOTATION
 
-https://supervise.ly/
+- https://supervise.ly/
 
 # ai-fastAPI
 
