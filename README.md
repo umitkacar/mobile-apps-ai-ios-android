@@ -1,30 +1,14 @@
-# ai-mobile
+# NO CODE LOW CODE
 
-- https://github.com/WongKinYiu/yolov7
+- https://about.appsheet.com/home/
 
-- https://boofcv.org/
-
-- https://walkwithfastai.com/Segmentation
-
-- https://github.com/vladimir-chernykh/coreml-performance
-
-# ai-coreML
-
-- https://coremltools.readme.io/docs/pytorch-conversion
-
-- https://github.com/hollance/CoreMLHelpers
-
-- https://developer.apple.com/machine-learning/api/
+- https://powerapps.microsoft.com/en-gb/
 
 # SWIFT
 
 - https://www.appbrewery.co/p/ios-course-resources/
 
-# ANOTATION
+# ANDROID
 
-- https://supervise.ly/
 
-# ai-fastAPI
-
-- https://github.com/FourthBrain/FastAPI-for-Machine-Learning-Live-Demo/blob/main/ml.py
 
