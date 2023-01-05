@@ -11,9 +11,11 @@
 # ANDROID
 
 
-# MOBILENETV2 
+# MOBILENETV2-V3
 
 - https://github.com/d-li14/mobilenetv2.pytorch
+-
+- https://github.com/kuan-wang/pytorch-mobilenet-v3
 
 
 
