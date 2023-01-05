@@ -30,3 +30,5 @@
 - https://github.com/ming71/yolov3-polygon
 
 - https://github.com/LJT666666/polygon-yolov5
+
+- https://colab.research.google.com/github/roboflow-ai/yolov5-custom-training-tutorial/blob/main/yolov5-custom-training.ipynb
