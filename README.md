@@ -26,3 +26,5 @@
 - https://github.com/ultralytics/yolov5/
 
 - https://docs.ultralytics.com/
+
+- https://github.com/ming71/yolov3-polygon
