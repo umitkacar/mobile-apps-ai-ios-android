@@ -11,4 +11,9 @@
 # ANDROID
 
 
+# MOBILENETV2 
+
+- https://github.com/d-li14/mobilenetv2.pytorch
+
+
 
