@@ -34,3 +34,11 @@
 - https://colab.research.google.com/github/roboflow-ai/yolov5-custom-training-tutorial/blob/main/yolov5-custom-training.ipynb
 
 - https://github.com/ultralytics/JSON2YOLO
+
+# ANNOTATIONS (MASK2POLYGON)
+
+- https://imantics.readthedocs.io/en/latest/api.html#polygons-object
+
+- https://github.com/jsbroks/imantics
+
+- https://github.com/cocodataset/cocoapi/issues/39
