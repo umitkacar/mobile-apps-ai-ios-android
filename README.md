@@ -8,6 +8,8 @@
 
 - https://www.appbrewery.co/p/ios-course-resources/
 
+- [Run Your App on Your iPhone or Simulator](https://www.youtube.com/watch?v=Fo1A36RsoCI)
+
 # ANDROID
 
 
