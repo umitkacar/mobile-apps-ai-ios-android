@@ -10,6 +10,8 @@
 
 - [Run Your App on Your iPhone or Simulator](https://www.youtube.com/watch?v=Fo1A36RsoCI)
 
+- IOS > Settings > General > VPN & Device Management 
+
 # ANDROID
 
 
