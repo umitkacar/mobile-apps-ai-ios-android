@@ -12,6 +12,8 @@
 
 - IOS > Settings > General > VPN & Device Management 
 
+- https://anuragajwani.medium.com/how-to-consume-c-code-in-swift-b4d64a04e989
+
 # ANDROID
 
 
