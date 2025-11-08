@@ -2,11 +2,14 @@
 
 from __future__ import annotations
 
-from pathlib import Path
-from typing import Any
+from typing import TYPE_CHECKING, Any
 
 import numpy as np
 from pydantic import BaseModel, Field
+
+
+if TYPE_CHECKING:
+    from pathlib import Path
 
 
 class Detection(BaseModel):
@@ -51,7 +54,6 @@ class YOLODetector:
     def _load_model(self) -> None:
         """Load YOLO model."""
         # Implementation would load actual YOLO model
-        pass
 
     def detect(self, image: np.ndarray) -> list[Detection]:
         """Detect objects in image.
@@ -63,7 +65,8 @@ class YOLODetector:
             List of Detection objects.
 
         Raises:
-            ValueError: If model is not loaded or image is invalid.
+            ValueError: If model is not loaded.
+            TypeError: If image is not a numpy array.
         """
         if self.model is None:
             msg = "Model not loaded"
@@ -71,7 +74,7 @@ class YOLODetector:
 
         if not isinstance(image, np.ndarray):
             msg = "Image must be a numpy array"
-            raise ValueError(msg)
+            raise TypeError(msg)
 
         # Implementation would perform actual detection
         return []
@@ -150,7 +153,6 @@ class SAMSegmenter:
     def _load_model(self) -> None:
         """Load SAM model."""
         # Implementation would load actual SAM model
-        pass
 
     def segment(
         self,

@@ -51,7 +51,6 @@ class MobileAI:
     def _load_model(self) -> None:
         """Load the AI model from disk."""
         # Implementation would go here
-        pass
 
     def predict(self, input_data: Any) -> dict[str, Any]:
         """Run inference on input data.

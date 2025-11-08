@@ -2,16 +2,17 @@
 
 from __future__ import annotations
 
-from pathlib import Path
 from typing import TYPE_CHECKING
 
-import numpy as np
 import pytest
 
 from mobile_ai.models import Detection, SAMSegmenter, SegmentationMask, YOLODetector
 
+
 if TYPE_CHECKING:
-    pass
+    from pathlib import Path
+
+    import numpy as np
 
 
 class TestDetection:
@@ -68,7 +69,7 @@ class TestYOLODetector:
         detector = YOLODetector(model_path)
         detector.model = "dummy"  # Mock loaded model
 
-        with pytest.raises(ValueError, match="Image must be a numpy array"):
+        with pytest.raises(TypeError, match="Image must be a numpy array"):
             detector.detect("not_an_array")  # type: ignore[arg-type]
 
     def test_export_to_coreml(self, model_path: Path, tmp_path: Path) -> None:

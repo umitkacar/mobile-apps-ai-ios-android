@@ -2,14 +2,16 @@
 
 from __future__ import annotations
 
-from pathlib import Path
 from typing import TYPE_CHECKING
 
 import pytest
 
 from mobile_ai.core import MobileAI, MobileAIConfig
 
+
 if TYPE_CHECKING:
+    from pathlib import Path
+
     import numpy as np
 
 

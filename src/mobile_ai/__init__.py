@@ -8,11 +8,12 @@ __author__ = "Mobile AI Team"
 __email__ = "team@mobile-ai.dev"
 
 from mobile_ai.core import MobileAI
-from mobile_ai.models import YOLODetector, SAMSegmenter
+from mobile_ai.models import SAMSegmenter, YOLODetector
+
 
 __all__ = [
     "MobileAI",
-    "YOLODetector",
     "SAMSegmenter",
+    "YOLODetector",
     "__version__",
 ]
