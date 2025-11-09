@@ -86,6 +86,13 @@ repos:
         additional_dependencies: ["bandit[toml]"]
         exclude: ^tests/
 
+  # Security audit for dependencies
+  - repo: https://github.com/pypa/pip-audit
+    rev: v2.6.3
+    hooks:
+      - id: pip-audit
+        args: [--skip-editable]
+
   # Sort imports
   - repo: https://github.com/pycqa/isort
     rev: 5.13.2
@@ -139,6 +146,29 @@ repos:
     rev: 0.7.1
     hooks:
       - id: nbstripout
+
+  # ==================== Testing ====================
+
+  # Run tests
+  - repo: local
+    hooks:
+      - id: pytest
+        name: pytest
+        entry: pytest
+        language: system
+        pass_filenames: false
+        always_run: true
+        args: [-v, --tb=short, -x]
+        stages: [manual]
+
+      - id: pytest-cov
+        name: pytest with coverage
+        entry: pytest
+        language: system
+        pass_filenames: false
+        always_run: true
+        args: [--cov=src/mobile_ai, --cov-report=term-missing, --cov-fail-under=80]
+        stages: [manual]
 
   # ==================== Security and secrets ====================
 

@@ -58,6 +58,7 @@ dev = [
     "coverage[toml]>=7.4.0",
     "ipython>=8.20.0",
     "ipdb>=0.13.13",
+    "pip-audit>=2.6.0",  # Security auditing
 ]
 
 # Documentation dependencies
@@ -151,11 +152,24 @@ format = "black src tests"
 format-check = "black --check src tests"
 type-check = "mypy src tests"
 
+# Security
+audit = "pip-audit"
+audit-fix = "pip-audit --fix"
+
 # Combined checks
 check = [
     "lint",
     "format-check",
     "type-check",
+    "test-cov",
+]
+
+# All checks including security
+check-all = [
+    "lint",
+    "format-check",
+    "type-check",
+    "audit",
     "test-cov",
 ]
 
