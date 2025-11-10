@@ -127,3 +127,74 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ==================== IDEs ====================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ==================== OS ====================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# ==================== Project Specific ====================
+# Models
+*.pt
+*.pth
+*.onnx
+*.mlmodel
+*.tflite
+*.pb
+models/
+checkpoints/
+
+# Data
+data/
+datasets/
+
+# Logs
+logs/
+
+# Hatch
+.hatch/
+
+# Ruff
+.ruff_cache/
+
+# Secrets
+.secrets.baseline
+secrets/
+*.key
+*.pem
+credentials.json
